@@ -44,7 +44,7 @@ body{
 }
 
 /*Css chessboard*/
-#divChessBoard{
+#divChessboard{
     padding-top: 5px;
     float: left;
     width: 50%;
@@ -71,7 +71,7 @@ body{
     height: 600px;
     width: 600px;
 }
-#chessBoard td{
+#chessboard td{
     height: 70px;
     width: 60px;
     border-style: solid;
@@ -80,7 +80,7 @@ body{
     border-width: 2px;
 }
 
-#chessBoard td:hover{
+#chessboard td:hover{
     border-width: 2px;
     border-collapse: collapse;
     border-style: solid;
