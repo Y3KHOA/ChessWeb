@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ededee;
+}
+
+/*Css div main*/
+#divMain{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*CSS info*/
+#divPlayerBlack{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#tblPlayerBlack{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140%;
+}
+#iBlack, #iRed{
+    height: 100px;
+    widows: 100px;
+}
+
+#tblPlayerRed{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tblPlayerBlack td, #tblPlayerRed td{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    min-height: 100%;
+}
+
+/*Css chessboard*/
+#divChessBoard{
+    padding-top: 5px;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+/*Css Replay*/
+#divPlayerRed{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#PointBlack{
+ color: yellow;
+}
+#PointRed{
+    color: red;
+}
+
+/*CSS table chessboard*/
+#chessBoard{
+    margin-top: 5%;
+    margin-left:10%;
+    height: 600px;
+    width: 600px;
+}
+#chessBoard td{
+    height: 70px;
+    width: 60px;
+    border-style: solid;
+    border-color: #aab69b;
+    border-collapse: collapse;
+    border-width: 2px;
+}
+
+#chessBoard td:hover{
+    border-width: 2px;
+    border-collapse: collapse;
+    border-style: solid;
+    border: aqua;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
